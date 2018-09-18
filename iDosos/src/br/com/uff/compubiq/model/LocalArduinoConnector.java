@@ -21,7 +21,7 @@ public class LocalArduinoConnector extends ArduinoConnector{
 		
 	}
 	public double getTemp() {
-        String ask = "temperature";
+        String ask = "temperatura";
         if (javino.requestData(getPort(), ask)){
             return Double.parseDouble(javino.getData());
         } else{
@@ -31,7 +31,7 @@ public class LocalArduinoConnector extends ArduinoConnector{
 	}
 	
     public double getLuminosity() {
-        String ask = "luminosity";
+        String ask = "luminosidade";
         if (javino.requestData(getPort(), ask)){
             return Double.parseDouble(javino.getData());
         } else{
