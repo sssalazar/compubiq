@@ -12,9 +12,11 @@ A biblioteca [JAVINO](https://sourceforge.net/projects/javino/) foi usada para i
 
 ## Projeto
 Como sensor foi usado uma placa Arduino UNO e um LDR como sensor de luminosidade e um TMP36 como sensor de temperatura.
+
 ![Projeto Arduino com LDR e TMP36 feito no tinkercad](img/arduino_sketch.jpg)
 
-O arduino fica "ouvindo" se existe alguma solicitação.
+O Arduino fica "ouvindo" se existe alguma solicitação.
+
 ![Código da comunicação via Arduino](img/arduino_comunication.png)
 
 Enquanto o Java envia o pedido da informação do sensor desejado.
